@@ -4,7 +4,7 @@
 
 ### **Objective :**
 
-An analysis for a new (and fake) ride sharing company, Pyber is being conducted to see how and where it will keep its business striving.  
+An analysis for a new (and fake) ride sharing company, Pyber was conducted to see how and where it would keep its business striving.  
 
  
 
@@ -16,9 +16,9 @@ Emily Mo
 
 ### **About the data :**
 
-Two sets of data are provided - city data and ride data.  They are merged to be analyzed.  After being merged, the columns are city, date of the ride, fare, ride_id, driver_count and type of city.
+Two sets of data were provided - city data and ride data.  They were merged to be analyzed.  After being merged, the columns were city name, date of the ride, fare, ride_id, driver_count and type of city.
 
-Cities are categorized into urban, suburban and rural.  The city category is the main focus of this analysis.  The total fares, total rides and total number of drivers by city category will be computed and the results will help the company to focus on how to strive in urban, suburban and rural areas.
+Cities were classified into urban, suburban and rural.  The city types were the main focus of this analysis.  The total fares, total rides and total number of drivers by city category were computed and the results wouldl help the company to focus on how to strive in urban, suburban and rural areas.
 
  
 
@@ -30,8 +30,11 @@ The python script uses :
 - numpy,
 - csv file processing, 
 - pandas dataframes, 
-- pandas merge 
-- matplotlib - bubble chart and pie charts.  
+- pandas merge,
+- groupby,
+- count(), mean(), value_counts(),
+- pandas loc, 
+- matplotlib - bubble chart and pie charts, with legends.  
 
 The python script produces a bubble chart to show total number of rides and average fares among urban, suburban and rural areas.  Three pie charts are available for the percentage of each city type :
 
@@ -44,5 +47,5 @@ The python script produces a bubble chart to show total number of rides and aver
 
 ### Deployment :
 
-The python script, pyber.py can be run in jupyter notebook.
+The python script, pyber.ipynb can be run in jupyter notebook.
 
